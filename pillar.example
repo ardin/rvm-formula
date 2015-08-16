@@ -1,0 +1,17 @@
+rvm:
+  version: stable
+  rubies:
+    ruby-1.9.3:
+      default: True
+      gemsets:
+        app:
+          - bundler
+    ruby-2.2.0:
+      gemsets:
+        app:
+          - passenger
+          - rails-4.1
+        cms:
+          - rails-4.0
+
+
